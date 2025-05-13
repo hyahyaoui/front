@@ -3,15 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve"
   },
   "private": true,
   "dependencies": {
     "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/forms": "^17.0.0",
@@ -21,7 +18,6 @@
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.0",
     "@angular/cli": "^17.0.0",
     "@angular/compiler-cli": "^17.0.0",
     "typescript": "~5.2.0"
